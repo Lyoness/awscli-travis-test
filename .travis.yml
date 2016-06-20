@@ -2,9 +2,6 @@ language: python
 
 group: stable
 dist: precise
-
 before_install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-
-  
